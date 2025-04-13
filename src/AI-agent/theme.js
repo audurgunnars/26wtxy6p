@@ -1,0 +1,45 @@
+export const appTheme = {
+  space: [0, 4, 8, 16, 32, 64],
+  fontSizes: [12, 14, 16, 20, 24, 32],
+  radii: [0, 4, 8, 16],
+};
+
+export const lightTheme = {
+  background: '#ffffff',
+  foreground: '#0f0f10',
+  primary: '#1a1a1a',
+  primaryForeground: '#fafafa',
+  secondary: '#f4f4f5',
+  secondaryForeground: '#1a1a1a',
+  muted: '#f4f4f5',
+  mutedForeground: '#71717a',
+  accent: '#f4f4f5',
+  accentForeground: '#1a1a1a',
+  destructive: '#ef4444',
+  destructiveForeground: '#fafafa',
+  border: '#e4e4e7',
+  input: '#e4e4e7',
+  ring: '#1a1a1a',
+  radius: '0.75rem',
+  ...appTheme,
+};
+
+export const darkTheme = {
+  background: '#0f0f10',
+  foreground: '#fafafa',
+  primary: '#fafafa',
+  primaryForeground: '#1a1a1a',
+  secondary: '#27272a',
+  secondaryForeground: '#fafafa',
+  muted: '#27272a',
+  mutedForeground: '#a1a1aa',
+  accent: '#27272a',
+  accentForeground: '#fafafa',
+  destructive: '#7f1d1d',
+  destructiveForeground: '#fafafa',
+  border: '#27272a',
+  input: '#27272a',
+  ring: '#d4d4d8',
+  radius: '0.75rem',
+  ...appTheme,
+};
